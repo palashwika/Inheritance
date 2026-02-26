@@ -1,0 +1,19 @@
+Class = category, blueprint for objects, what attributes and methods an object will have
+    ex:
+    class Car: 
+    
+Object = instance/variable of a class
+
+We can assign:
+attributes: is/has (name, height)
+method = function inside of a class; actions, what an object can dp
+
+
+String, Integers, etc = Are classes
+CLasses all have objects
+ex:
+a= 5
+type(a) -> 5 is obj of class int 
+
+
+

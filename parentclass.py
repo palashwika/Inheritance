@@ -7,7 +7,7 @@ class Person(object):
     # __init__ is known as the constructor
 
 
-    def __init__(self,name,idnumber):
+    def __init__(self,name,idnumber): #def is used to call a function
         self.name=name
         self.idnumber=idnumber
     def display(self):
@@ -21,10 +21,15 @@ class Employee(Person):
         self.post=post
 
         #invoking the __init__ of the parent class
-        Person.__init__(self,name,idnumber)
+    Person.__init__(self,name,idnumber)
+    #def display(self):
+       # print(self.name)
+        #print(self.idnumber)
+        #print(self.salary)
+        #print(self.post)
 
 #creation of an object variable or an instance
-a=Employee('Sara', 843290, 30002, "Manager")
+a=Employee('Sara', 541239, 8000000, "Manager")
 
 #calling a function of the class Person using its instance
-a.display()
+a.display() #only displays parent
